@@ -1,0 +1,24 @@
+Logistics Network and Delivery Windows test cases
+
+BST
+- Empty BST has height 0.
+- Search missing hub returns false.
+- Sorted H10-H20-...-H100 insertion height is 10.
+- Balanced insertion height is 4.
+
+Parcel hash
+- First (tracking number, hub) scan is accepted.
+- Repeating the same tracking number at the same hub is flagged.
+- The same tracking number at another hub is accepted.
+
+Graph
+- H01 to H10 has 3 hops using H01 -> H02 -> H05 -> H10.
+- DFS from H01 visits all 10 hubs.
+
+Sliding window
+- Empty input and fewer than four hours return no window.
+- [80, 95, 120, 150, 180, 220] highest four-hour window is hours 2-5 with average 167.5.
+
+Palindrome
+- "H01-H10-H10-H01" is true after ignoring separators and case.
+- "H01, H02, H03" is false.

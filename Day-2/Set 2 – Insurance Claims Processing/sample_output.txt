@@ -1,0 +1,11 @@
+BST traversals:
+  Inorder (sorted): [901, 983, 1000, 1042, 1075, 1105, 1201]
+  Preorder: [1042, 983, 901, 1000, 1105, 1075, 1201]
+  Postorder: [901, 1000, 983, 1075, 1201, 1105, 1042]
+  Search 1000=True, search 9999=False
+Duplicate/near-duplicate claims: [('CLM-1', 'CLM-2')]
+Shortest approval path: ['registration', 'assessment', 'surveyor', 'settlement']
+Approval loop detected: ['assessment', 'surveyor', 'assessment']
+Longest claim spike above 100: (5, 7, 3)
+Claim merge: []
+Claim merge example: [1001, 1003, 1005, 1008, 1010, 1020]

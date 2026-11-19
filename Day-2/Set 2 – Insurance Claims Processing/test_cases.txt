@@ -1,0 +1,22 @@
+Insurance Claims Processing test cases
+
+BST
+- Empty tree: search/three traversals should safely return false/empty.
+- Insert [1042, 983, 1105, 983] and verify duplicates are not added.
+- Inorder traversal must be ascending.
+
+Duplicate detection
+- "POL 123" and " pol123 " on the same incident date are duplicates after normalization.
+- A different policy or incident date is not a duplicate.
+
+Graph
+- Registration to settlement shortest path has four nodes.
+- Surveyor -> assessment -> surveyor must be detected as a loop.
+
+Sliding window
+- Longest run for [101, 101, 99, 120] is indices 0-1 and length 2.
+- Empty input returns length 0.
+
+Merge
+- merge([], []) returns [].
+- merge([1001, 1005], [1003, 1008]) returns [1001, 1003, 1005, 1008].

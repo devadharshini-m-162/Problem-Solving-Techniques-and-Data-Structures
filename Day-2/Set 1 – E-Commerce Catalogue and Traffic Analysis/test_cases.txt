@@ -1,0 +1,21 @@
+E-Commerce Catalogue and Traffic Analysis test cases
+
+BST
+- Insert 15 sample categories and verify search("Gaming") is true.
+- Verify search("Travel") is false.
+- Verify inorder traversal is alphabetically sorted.
+
+Hash table
+- Demonstrate chaining with "A1" and "D4" in a table of size 3.
+- Look up all 100,000 generated SKU keys; duplicate keys must update instead of add twice.
+
+Graph
+- For the deployment DAG, return a valid deployment order.
+- For a graph containing A -> B -> C -> A, DFS must report A, B, C, A.
+
+Sliding window
+- Verify a 24-hour input contains one three-hour window result.
+- Verify input shorter than three hours returns no window.
+
+Two pointers
+- Verify [120, 280, 450, 550, 730, 880] returns pairs totaling 1000.

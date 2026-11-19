@@ -1,0 +1,14 @@
+BST traversals:
+  Inorder: ['Appliances', 'Audio', 'Beauty', 'Books', 'Cameras', 'Fashion', 'Furniture', 'Gaming', 'Garden', 'Grocery', 'Laptops', 'Phones', 'Sports', 'Toys', 'Wearables']
+  Preorder: ['Phones', 'Laptops', 'Audio', 'Appliances', 'Cameras', 'Books', 'Beauty', 'Gaming', 'Fashion', 'Furniture', 'Grocery', 'Garden', 'Wearables', 'Sports', 'Toys']
+  Postorder: ['Appliances', 'Beauty', 'Books', 'Furniture', 'Fashion', 'Garden', 'Grocery', 'Gaming', 'Cameras', 'Audio', 'Laptops', 'Toys', 'Sports', 'Wearables', 'Phones']
+  Search 'Gaming': True; search 'Travel': False
+Hash collision demonstration:
+  A1 and D4 bucket: 0 (size=3), lookups=Laptop, Camera
+100,000-SKU lookup benchmark:
+  Custom chain build=3851.02 ms, lookup=3788.94 ms
+  Built-in dict lookup=744.14 ms
+Deployment order (BFS/Kahn): ['gateway', 'cart', 'pricing', 'inventory', 'database']
+Cycle detected (DFS): None
+24-hour busiest 3-hour window: hours 17-19, requests=1710
+Gift-card pairs total 1000: [(120, 880), (450, 550)]

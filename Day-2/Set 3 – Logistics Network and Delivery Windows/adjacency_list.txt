@@ -1,0 +1,12 @@
+Logistics hub adjacency list
+
+H01: H02, H03
+H02: H01, H05, H04
+H03: H01, H06
+H04: H02, H07
+H05: H02, H08
+H06: H03, H09
+H07: H04, H10
+H08: H05, H10
+H09: H06, H10
+H10: H07, H08, H09

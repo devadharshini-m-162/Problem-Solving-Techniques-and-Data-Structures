@@ -1,0 +1,13 @@
+Hub BST:
+  Search H70=True, search ZZ=False
+  Balanced insertion height=4
+  Sorted insertion height=9 (sorted input degenerates to a chain)
+Parcel scan checks:
+  First scan PKG001 at H01: True
+  Repeat scan PKG001 at H01: False
+  Scan PKG001 at H02: True
+Fewest-hop route H01 to H10: ['H01', 'H02', 'H05', 'H08', 'H10']
+DFS reachable from central H01: ['H01', 'H02', 'H05', 'H08', 'H10', 'H07', 'H04', 'H09', 'H06', 'H03']
+Highest 4-hour window: (4, 7, 200.0)
+Palindrome 'H01-H10-H10-H01': True
+Palindrome 'H01, H02, H03': False
