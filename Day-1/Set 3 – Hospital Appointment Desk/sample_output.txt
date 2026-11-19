@@ -1,0 +1,11 @@
+﻿1,000 lookups in 20,000 patient records: linear=19920.24 ms, binary=177.98 ms
+Appointment sorting (500 records; urgency ascending, arrival ascending):
+  Selection: 1153.00 ms, comparisons=124750, swaps=496
+  Quick sort: 153.46 ms, comparisons=4641, swaps=2440
+  Same ordering: True
+  First 5 appointments: [('A0477', 1, 481), ('A0274', 1, 482), ('A0281', 1, 483), ('A0311', 1, 483), ('A0155', 1, 484)]
+Double-booked patient slots: [('P001', '09:00')]
+Walk-in FIFO: token-1, then token-2
+Most recently viewed patient: patient-P020
+DP maximum appointment count: 4; schedule=['A', 'B', 'C', 'D']
+Shortest-duration greedy count: 3; schedule=['S', 'C', 'D']

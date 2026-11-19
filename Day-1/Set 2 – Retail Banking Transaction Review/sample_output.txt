@@ -1,0 +1,12 @@
+﻿Search comparisons for 100,000 sorted IDs:
+  Binary search: best=1, average successful=30.38, worst including misses=34
+  Linear search: best=1, average successful=50000.50, worst=100000
+Statement by posting time (insertion): [('10:00', 'T1'), ('10:00', 'T3'), ('10:01', 'T2'), ('10:01', 'T5'), ('10:02', 'T4')]
+Statement by posting time (merge): [('10:00', 'T1'), ('10:00', 'T3'), ('10:01', 'T2'), ('10:01', 'T5'), ('10:02', 'T4')]
+Stable for equal timestamps (original T1 before T3): True
+Duplicate postings within 60 seconds: [('P1', 'P2'), ('P2', 'P3')]
+Manual-review FIFO: case-101, then case-102
+Reverse last adjustment: adjustment-2
+Built-in equivalents: queue=case-101, stack=adjustment-2
+10,000 amounts: divide-and-conquer min/max=(-49.95, 499.68), comparisons=19998, time=411.29 ms
+10,000 amounts: brute-force min/max=(-49.95, 499.68), comparisons=19998, time=12.82 ms
